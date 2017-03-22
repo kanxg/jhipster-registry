@@ -13,3 +13,15 @@ jhipster:
         authentication:
             jwt:
                 secret: my-secret-token-to-change-in-production
+
+
+uumai:
+  config:
+    uumai:
+      hdfs:
+        uri: hdfs://rock-cdc-server:9000a
+      mongodb:
+        MONGO_URI: mongodb://rock-cdc-server:27017a
+      redis:
+        serverip: rock-cdc-server3
+
